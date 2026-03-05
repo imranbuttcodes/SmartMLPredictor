@@ -1,3 +1,9 @@
+st.markdown("""
+    <style>
+    .stToolbar { display: none !important; }
+    </style>
+""", unsafe_allow_html=True)
+
 import streamlit as st
 
 # Page title
