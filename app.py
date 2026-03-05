@@ -1,13 +1,5 @@
 import streamlit as st
 
-
-st.markdown("""
-    <style>
-    .stToolbar { display: none !important; }
-    </style>
-""", unsafe_allow_html=True)
-
-
 # Page title
 st.set_page_config(
     page_title="Prediction Tools",
