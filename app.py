@@ -1,10 +1,12 @@
+import streamlit as st
+
+
 st.markdown("""
     <style>
     .stToolbar { display: none !important; }
     </style>
 """, unsafe_allow_html=True)
 
-import streamlit as st
 
 # Page title
 st.set_page_config(
