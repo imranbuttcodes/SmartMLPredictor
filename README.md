@@ -23,6 +23,12 @@ It allows users to make predictions and generate PDF reports for:
 
 ---
 
+## 🚀 Live Demo
+
+👉 **[Try it now!](https://imran-dev-smartmlpredictor.streamlit.app/)**
+
+---
+
 ## 🛠️ Technologies Used
 
 - Python   
