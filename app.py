@@ -45,4 +45,4 @@ Hi! I'm **Imran Butt**, learning Machine Learning.
 st.write("---")
 
 
-st.write("🤖 Made with Streamlit | © 2024")
+st.write("🤖 Made with Streamlit | © 2026")
