@@ -182,8 +182,7 @@ if st.button("🔍 Predict Diabetes Risk", type="primary"):
     probability = model.predict_proba(input_scaled)[0]
     
     # Display results
-    st.write("---")
-    st.header("📋 Prediction Results")
+    st.header("Prediction Results")
     
     if prediction == 1:
         st.error("### HIGH RISK - Diabetic")
@@ -269,7 +268,4 @@ if st.button("🔍 Predict Diabetes Risk", type="primary"):
             mime="application/pdf"
     )   
 
-
-# Footer
-st.write("---")
 st.write("Educational demonstration tool")
