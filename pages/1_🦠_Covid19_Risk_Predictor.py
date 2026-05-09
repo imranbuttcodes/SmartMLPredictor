@@ -251,7 +251,7 @@ def main():
             """)
             
         else:
-            st.success("### ✅ LOW RISK")
+            st.success("### LOW RISK")
             st.metric("Confidence", f"{probability[0]*100:.1f}%")
             
             st.info("""
