@@ -186,7 +186,7 @@ if st.button("🔍 Predict Diabetes Risk", type="primary"):
     st.header("📋 Prediction Results")
     
     if prediction == 1:
-        st.error("### ⚠️ HIGH RISK - Diabetic")
+        st.error("### HIGH RISK - Diabetic")
         st.metric("Confidence", f"{probability[1]*100:.1f}%")
         
         st.warning("""
@@ -201,7 +201,7 @@ if st.button("🔍 Predict Diabetes Risk", type="primary"):
         """)
         
     else:
-        st.success("### ✅ LOW RISK - Non-Diabetic")
+        st.success("### LOW RISK - Non-Diabetic")
         st.metric("Confidence", f"{probability[0]*100:.1f}%")
         
         st.info("""
